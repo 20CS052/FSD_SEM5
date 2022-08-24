@@ -1,16 +1,3 @@
-// alert("hello");
-
-// var name = prompt('Hello enter your name');
-
-// var rating = confirm('do you like our website...?');
-// if(rating){
-//     document.write(name);
-//     document.write(' thankyou for rating Us..')
-// }
-// else{
-//     document.write(name);
-//     document.write(' sorry....')
-// }
 
 function changeBg(){
     var txt = document.getElementById('background_color').innerHTML;
