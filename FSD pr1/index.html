@@ -39,6 +39,9 @@
             border-radius: 20px;
             background-color: var(--header-background-color);
         }
+        nav{
+justify-content: flex-start;
+        }
         .header_color_choice{
             display: flex;
             flex-direction: row;
@@ -147,6 +150,7 @@
         #article{
             color:  black;
         }
+
     </style>
 </head>
 
@@ -164,10 +168,21 @@
     
 
         <div id="header" class="header">
+            <nav id="navbar">
+                <div class="container">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
             <div class="he1">
+                
                 <h1 id="main_heading">Practical 1</h1>
             </div>
-            
+           
             <div class="he2">
                 
                 <div class="header_main">
@@ -179,6 +194,7 @@
                         <button class="yellowC m10" style="height: 50px; width: 50px;" onclick="header_color_choice_to_yellow()"> </button>
                     </div>
                     <div class="header_color_choice">
+                        
                         <button id="background_color"  onclick="changeBg()">
                             Dark mode
                         </button>
@@ -187,6 +203,7 @@
                 <div class="profile">
                     <img class="profile" src="https://cdn.iconscout.com/icon/free/png-512/avatar-370-456322.png" alt="#" >
                 </div>
+                
             </div>
             
         </div>
@@ -218,6 +235,7 @@
     
           <!-- the aside content can also be nested within the main content -->
           <aside>
+  
             <h2 id="sub_heading4">Related</h2>
     
             <ul>
